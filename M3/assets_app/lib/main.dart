@@ -45,30 +45,28 @@ class _MyHomePageState extends State<MyHomePage> {
             Container(
               height: 100.0,
               width: 100.0,
-              child: SvgPicture.asset(
-                assetName
-              ),
+              child: SvgPicture.asset(assetName),
             ),
             Container(
-              height: 200.0,
-              child: CarouselSlider(
-                options: CarouselOptions(height: 400.0),
-                items: [1,2,3,4,5].map((i) {
-                  return Builder(
-                    builder: (BuildContext context) {
-                      return Container(
-                        width: MediaQuery.of(context).size.width,
-                        margin: EdgeInsets.symmetric(horizontal: 5.0),
-                        decoration: BoxDecoration(
-                          color: Colors.amber
-                        ),
-                        child: Text('text $i', style: TextStyle(fontSize: 16.0),)
-                      );
-                    },
-                  );
-                }).toList(),
-              )
-            )
+                height: 200.0,
+                child: CarouselSlider(
+                  options: CarouselOptions(height: 400.0),
+                  items: [1, 2, 3, 4, 5].map((i) {
+                    return Builder(
+                      builder: (BuildContext context) {
+                        return Container(
+                          width: MediaQuery.of(context).size.width,
+                          margin: EdgeInsets.symmetric(horizontal: 5.0),
+                          decoration: BoxDecoration(color: Colors.amber),
+                          child: Text(
+                            'text $i',
+                            style: TextStyle(fontSize: 16.0),
+                          ),
+                        );
+                      },
+                    );
+                  }).toList(),
+                ))
           ],
         ),
       ),
