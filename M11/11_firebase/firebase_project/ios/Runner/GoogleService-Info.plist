@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>290646221762-e6m5vef8cchmer27b048le5phqj93pqc.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.290646221762-e6m5vef8cchmer27b048le5phqj93pqc</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBlQeQTneAJEylzwqv5czNaPI99v2u_Coo</string>
+	<key>GCM_SENDER_ID</key>
+	<string>290646221762</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.firebaseproject</string>
+	<key>PROJECT_ID</key>
+	<string>urglmorlskillbox</string>
+	<key>STORAGE_BUCKET</key>
+	<string>urglmorlskillbox.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:290646221762:ios:3263b3f3d184b633486c5b</string>
+	<key>DATABASE_URL</key>
+	<string>https://urglmorlskillbox.firebaseio.com</string>
+</dict>
+</plist>
