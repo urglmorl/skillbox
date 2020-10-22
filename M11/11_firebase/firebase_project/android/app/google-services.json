@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "290646221762",
+    "firebase_url": "https://urglmorlskillbox.firebaseio.com",
+    "project_id": "urglmorlskillbox",
+    "storage_bucket": "urglmorlskillbox.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:290646221762:android:3ba3ddb469061a4f486c5b",
+        "android_client_info": {
+          "package_name": "com.example.firebase_project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "290646221762-1pr7pcqlr9vt3eg84ag41fa72h874rdm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbi9enqff8FITy-ck_PMtzbQ4odxbPTWM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "290646221762-1pr7pcqlr9vt3eg84ag41fa72h874rdm.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "290646221762-e6m5vef8cchmer27b048le5phqj93pqc.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.firebaseproject"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
